@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="260.0" style="-fx-border-style: dotted; -fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="butorszallitas.ArAblakController">
+   <children>
+      <TextArea editable="false" layoutX="21.0" layoutY="20.0" prefHeight="253.0" prefWidth="200.0" style="-fx-border-color: red; -fx-font-size: 13;" text="Bútorszállítás Bt.&#10;&#10;Árak: &#10;&#10;Munkadíj :      10.000 Ft&#10;Km díj :            2.500Ft / 5km&#10;Mennyiség :     1.000 Ft / db" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="21.0" AnchorPane.topAnchor="20.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextArea>
+      <Button fx:id="btnBezar" defaultButton="true" layoutX="102.0" layoutY="297.0" mnemonicParsing="false" onAction="#bezar" text="Bezárás" AnchorPane.bottomAnchor="10.0" />
+   </children>
+</AnchorPane>

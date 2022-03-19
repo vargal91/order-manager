@@ -1,0 +1,45 @@
+/* 
+    Created on : 2021.08.08., 14:43:37
+    Author     : vargalaszlo
+*/
+
+.root {
+    -fx-background-color: linear-gradient(white, lightblue);
+}
+
+#torles:hover{
+    -fx-background-color:red;
+
+}
+
+#btnTorles:hover{
+    -fx-background-color:red;
+}
+
+#btnUj:hover{
+    -fx-border-style: dotted;
+
+}
+
+#btnUj{
+    -fx-background-color: orange;
+}
+
+#btnNaplo {
+    -fx-background-color: bisque;
+}
+
+
+#btnElvegezve:hover {
+    -fx-background-color: mediumspringgreen;
+}
+
+#btnLemondva:hover {
+    -fx-background-color: mediumpurple;
+}
+
+#btnStatisztika{
+    -fx-background-color: darkkhaki;
+    -fx-text-decoration: underline;
+}
+
